@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+
+
+    <style>
+
+
+
+.header{
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+
+}
+
+
+.left-section{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.middle-section{
+    
+    flex: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    }
+
+    
+    .right-section{
+    
+    width: 150px;
+    margin-right: 0px;
+    display: flex;
+    cursor: pointer;
+
+    }
+
+
+    .Homoja-logo{
+        width: 60px;
+        margin-left: 80px;
+    }
+
+
+    .create-account{
+        background-color:blue;
+        color: white;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        cursor: pointer;
+        border-style: solid;
+        font-family: sans-serif;
+        border-width: 0;
+
+    }
+
+    .create-account:hover {
+      opacity: 0.6;}
+
+
+
+    .nav-button{
+        width: 150px;
+        font-family: sans-serif;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+
+    .nav-button:hover{
+        color: blue;
+    }
+
+
+
+
+    .section-one{
+        margin-top: 100px;
+        background-color: rgba(0, 0, 255, 0.836); 
+        border-radius: 15PX;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Intro{
+        color: white; 
+        font-size: 40px;
+         margin-top: 0; 
+         padding: 30px;
+        font-family: sans-serif;
+        display: inline-block;
+        width: 400px;
+    }
+
+    .para-one{
+        font-size:30px ;
+        width: 600px;
+        display:block;
+        color: white;
+        padding: 20px;
+        font-family: sans-serif;
+        
+        
+    }
+
+    .section-two{
+        margin-top: 50px; 
+        background-color: white; 
+        width: 900px;}
+
+        .article-two{
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-width: 1px; 
+            border-color:grey;
+            border-radius: 15px;
+            margin: 20px;
+            margin-bottom: 80px;
+        }
+
+        .para-two{
+            width: 800px; 
+            font-size: 20px;
+             padding: 20px; 
+             font-family: sans-serif; 
+             margin-left: 20px ;
+        }
+
+        .section-three{
+            display:flex ; 
+            justify-content: space-between;
+            background-color: rgba(162, 162, 170, 0.034);
+
+        }
+
+
+
+        .whatwedo-section{
+            margin-top: 50px;
+             background-color: white; 
+             width: 300px;
+             margin: 40px;
+             margin-top: 50px;
+             border-radius: 15px;
+        }
+
+        .skills{
+            
+            box-sizing: border-box;
+            border-width: 1px;
+            border-color:grey; 
+            border-radius: 15px;
+            height: 300px;
+
+        }
+
+        footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(89, 89, 153, 0.685);
+  color: white;
+  margin-top: 100px;
+}
+
+.yellow{
+color: yellow;
+}
+    </style>
+
+
+
+
+
+    </head>
+    <body>
+        <header class="header">
+         
+        
+            <div class="left-section">
+                <img class="Homoja-logo"  src="piggyvest/Homoja.svg" alt="">
+            </div>
+    
+            <div class="middle-section">
+                
+    
+                <div class="stories-button">
+                    <div
+                       class="nav-button">
+                      Home
+                    </div>
+                 
+                </div>
+    
+                <div class="stories-button">
+                  <div class="nav-button"> 
+                    Services
+                </div>
+              
+    
+                </div>
+    
+                    <div class="stories-button">
+                       
+                        <div class="nav-button"> 
+                        Projects
+                        </div>
+                     
+                    </div>
+                   
+        
+    
+                    <div class="stories-button">
+                      <div class= "nav-button" 
+                      > About me
+                      </div>
+                    
+                    </div>
+    
+    
+            </div>
+    
+            <div class="right-section">
+               <button class="create-account"> Book Now</button>
+            </div>
+           
+        </header>
+
+                
+        <main style="margin-top: 150px;">
+            <section class="section-one">
+
+                 <div>
+                    <article style="margin-top: 50px;">
+                        <h1 class="Intro"> 
+                           <strong style="font-size:100px;">"</strong> Good <strong class="yellow">designs</strong> Gives you that <strong class="yellow">smile</strong>
+                        </h1>
+                        <p class="para-one">
+                            I create amazing frontend designs for both mobile screens and desktop screens
+                        </p>
+                       
+                    </article>
+                 </div>
+                
+                <div style="margin-top: 50px ;">
+                    <img style="width:200px; margin-right:150px;" src="piggyvest/invest.png" alt="">
+                </div>
+
+            </section>
+
+
+
+
+            <section class="section-two">
+                <article class="article-two">
+
+                  <P class="para-two">
+                      <strong style="font-size: 40px; color: blue;">"</strong>
+                       With over ten years of experience, i can help you with my well developed 
+                    programming skills to achieve your business goals on your website.
+                    With a good hand on Java, Vue js, and python, 
+                    i can do all what you have imagined for your next project. Bring it on!
+                  </P>
+                </article>
+            </section>
+
+            <h1 style="text-align: center; color: blue;"> What people are Saying about me!</h1>
+
+               <section class="section-three">
+                 
+               <section class="whatwedo-section">
+
+               <div class="skills">
+                <div style="margin-top: 40px;">
+                    <img style=" margin:20px; width: 60px; border-radius: 60px; " 
+                    src="channel-pictures/channel-1.jpeg" alt="">
+                    <h4 style=" margin:20px;">Alexo</h4>
+                    
+                    <p style="margin:20px;"> I have worked with Him for over
+                       four years now. All i can say is, he puts in 
+                       energy and a lot of dedication in what he does.</p>
+                 </div>
+
+               </div>
+            </section>
+
+
+
+            <section class="whatwedo-section">
+               
+                <div class="skills">
+
+                 <div style="margin-top: 40px;">
+                    <img style=" margin:20px; width: 60px; border-radius: 60px; " 
+                    src="channel-pictures/channel-3.jpeg" alt="">
+                    <h4 style=" margin:20px;">Azaria</h4>
+                    
+                    <p style="margin:20px;"> I have worked with Him for over
+                       four years now. All i can say is, he puts in 
+                       energy and a lot of dedication in what he does.</p>
+                 </div>
+                </div>
+            </section>
+
+
+            
+            <section class="whatwedo-section">
+                <div class="skills">
+                    <div style="margin-top: 40px;">
+                        <img style=" margin:20px; width: 60px; border-radius: 60px; " 
+                        src="channel-pictures/channel-4.jpeg" alt="">
+                        <h4 style=" margin:20px;">Vernica</h4>
+                        
+                        <p style="margin:20px;"> I have worked with Him for over
+                           four years now. All i can say is, he puts in 
+                           energy and a lot of dedication in what he does.</p>
+                     </div>
+                </div>
+            </section>
+               </section>
+
+        </main>
+
+
+
+        <footer>
+            <p>Author: Joshua Solomon Adams<br>
+            <a href="mailto:hege@example.com">joshuaadams2906@example.com</a></p>
+            <p>P21 Abuja cresent, Naija</p>
+          </footer>
+
+    </body>
+    </html>
+
